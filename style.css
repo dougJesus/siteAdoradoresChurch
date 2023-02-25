@@ -1,0 +1,17 @@
+:root{
+    --font-padrao: 'Niagara Solid', sans-serif;
+    
+}
+
+body{
+    background-color: red;
+    margin: 50px 25px 50px 25px;
+    padding: 0px;
+    font-family: var(font-padrao);
+}    
+
+
+h1,h2,h3,h4{
+    font-family: var(--font-padrao);
+    
+}
