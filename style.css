@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root{
     --font-padrao: 'Niagara Solid', sans-serif;
     
@@ -6,7 +5,7 @@
 /*ESTILIZANDO O HEADER */
 
 body{
-    background-color: red;
+    background-color: rgb(243, 0, 0);
     margin: 50px 25px 50px 25px;
     padding: 0px;
     font-family: var(font-padrao);
@@ -66,65 +65,23 @@ nav ul{
 }    
     a {
         text-decoration: none;
+        font-style: bold;
         font-family: var(--font-padrao);
         font-weight: 500;
         font-size: 42px;
         color: rgba(217, 217, 217, 0.5);
         
-=======
-:root{
-    --font-padrao: 'Niagara Solid', sans-serif;
-    
+    }
+
+    /*ESTILIZANDO O TEXTO PRINCIPAL*/
+
+main h2{
+    font-family: 'Niagara Solid';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #FFFFFF;
+    padding-top: 75px;
+    text-align: center;
+
 }
-/*ESTILIZANDO O HEADER */
-
-body{
-    background-color: red;
-    margin: 50px 25px 50px 25px;
-    padding: 0px;
-    font-family: var(font-padrao);
-}    
-
-
-h1,h2,h3,h4{
-    font-family: var(--font-padrao);
-    
-}
-
-header {
-    display: flex;
-    margin-left: 130px;
-    justify-content: space-between;
-    
-}
-    header img {
-    width: 230px;
-
-    }
-    header,#cabecalho{
-    margin-right: 130px;
-    }
-
-    header h1{
-        margin-top: 0px;
-        color: #ffffff;
-        font-size: 160px;
-        font-weight: 400;
-        font-family: var(--font-padrao);
-        height:40px;
-    }
-    header h2{
-        color: #ffffff;
-        font-size: 60px;
-        height: 35px;
-        text-align: center;
-        font-weight: 400;
-    }
-    header h3{
-        text-align: right;
-        text-decoration: underline;
-        font-size: 25px;
-        color:#ffffff;
-        font-weight: 400;
->>>>>>> 7360f84bfc109e2fd48f7e37bb0f1662ca5d7cc7
-    }
