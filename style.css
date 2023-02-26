@@ -9,6 +9,7 @@ body{
     margin: 50px 25px 50px 25px;
     padding: 0px;
     font-family: var(font-padrao);
+    
 }    
 
 
@@ -52,4 +53,21 @@ header {
         font-size: 25px;
         color:#ffffff;
         font-weight: 400;
+    }
+
+    /*ESTILIZANDO O MENU DE NAVEGAÇÃO*/
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 1px;
+}    
+    a {
+        text-decoration: none;
+        font-family: var(--font-padrao);
+        font-weight: 500;
+        font-size: 42px;
+        color: rgba(217, 217, 217, 0.5);
+        
     }
