@@ -85,3 +85,8 @@ main h2{
     text-align: center;
 
 }
+
+    /*ALINHANDO O VIDEO NO MEIO DA PÁGINA*/
+    main #video {
+        text-align: center;
+    }
