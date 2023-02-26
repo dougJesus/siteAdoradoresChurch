@@ -5,7 +5,7 @@
 /*ESTILIZANDO O HEADER */
 
 body{
-    background-color: rgb(243, 0, 0);
+    background-color: rgb(0, 0, 0);
     margin: 50px 25px 50px 25px;
     padding: 0px;
     font-family: var(font-padrao);
@@ -33,7 +33,7 @@ header {
     }
 
     header h1{
-        margin-top: 0px;
+        margin-top: 10px;
         color: #ffffff;
         font-size: 160px;
         font-weight: 400;
@@ -81,7 +81,8 @@ main h2{
     font-weight: 500;
     font-size: 50px;
     color: #FFFFFF;
-    padding-top: 75px;
+    padding-top: 55px;
+    padding-bottom: 20px;
     text-align: center;
 
 }
@@ -102,11 +103,22 @@ main h2{
         .container img {
             margin-top: 50px;
             width: 300px;
+            margin-bottom: 30px;
         }
 
         .fb-page{
             margin-top: 50px;
-            
+            margin-bottom: 30px;
         }
        
+    /*ESTILIZANDO O FOOTER*/
+
+    .icon h3{
+            text-align: center;
+            font-family: 'Newsreader';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            color: #FFFFFF;
+    }
       
